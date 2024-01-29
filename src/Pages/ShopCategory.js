@@ -7,7 +7,7 @@ import Item from "../Components/Items/Item";
 const ShopCategory = (props) => {
   const { all_products } = useContext(ShopContext);
   return (
-    <div div className="shop-category">
+    <div className="shop-category">
       <img src={props.banner} className="shopcategory-banner" alt="" />
       <div className="shopcategory-indexSort">
         <p>
